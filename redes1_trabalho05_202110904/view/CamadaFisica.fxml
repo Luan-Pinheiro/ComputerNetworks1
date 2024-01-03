@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControleDados">
+   <children>
+      <ImageView fx:id="imgBackground" fitHeight="562.0" fitWidth="806.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/background1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnIniciar" layoutX="360.0" layoutY="402.0" mnemonicParsing="false" onAction="#onClickBtnIniciar" prefHeight="37.0" prefWidth="81.0" stylesheets="@style.css" text="Iniciar" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <TextArea fx:id="txtATransmissor2" editable="false" layoutX="70.0" layoutY="319.0" prefHeight="76.0" prefWidth="114.0" stylesheets="@style.css">
+         <font>
+            <Font size="10.0" />
+         </font></TextArea>
+      <ImageView fx:id="imgMouse" fitHeight="76.0" fitWidth="81.0" layoutX="475.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/mouse.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnEnviar" layoutX="491.0" layoutY="361.0" mnemonicParsing="false" onAction="#onClickBtnEnviar" prefHeight="29.0" prefWidth="24.0" stylesheets="@style.css" />
+      <ImageView fx:id="imgBit01Alto" fitHeight="95.0" fitWidth="100.0" layoutX="25.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit02Alto" fitHeight="95.0" fitWidth="100.0" layoutX="120.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit03Alto" fitHeight="95.0" fitWidth="100.0" layoutX="215.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit04Alto" fitHeight="95.0" fitWidth="100.0" layoutX="310.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit05Alto" fitHeight="95.0" fitWidth="100.0" layoutX="405.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit06Alto" fitHeight="95.0" fitWidth="100.0" layoutX="500.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit07Alto" fitHeight="95.0" fitWidth="100.0" layoutX="595.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit08Alto" fitHeight="95.0" fitWidth="100.0" layoutX="690.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin1.png" />
+         </image></ImageView>
+      <ImageView fx:id="imgBit01Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="26.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit02Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="121.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit03Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="216.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit04Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="311.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit05Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="406.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit06Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="501.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit07Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="596.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit08Baixo" fitHeight="95.0" fitWidth="100.0" layoutX="691.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/bin0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit01altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="26.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit02altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="121.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit03altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="216.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit04altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="311.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit05altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="406.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit06altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="501.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit07altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="596.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit08altoBaixo" fitHeight="95.0" fitWidth="100.0" layoutX="691.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/altoBaixo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit01baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="26.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit02baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="121.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit03baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="216.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit04baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="311.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit05baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="406.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit06baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="501.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit07baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="596.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBit08baixoAlto" fitHeight="95.0" fitWidth="100.0" layoutX="691.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/baixoAlto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transicao1" fitHeight="90.0" fitWidth="10.0" layoutX="118.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transicao2" fitHeight="92.0" fitWidth="11.0" layoutX="213.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transicao3" fitHeight="92.0" fitWidth="11.0" layoutX="308.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transicao4" fitHeight="92.0" fitWidth="11.0" layoutX="403.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transicao5" fitHeight="92.0" fitWidth="11.0" layoutX="498.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transicao6" fitHeight="92.0" fitWidth="11.0" layoutX="593.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transicao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transicao7" fitHeight="92.0" fitWidth="11.0" layoutX="688.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transicao.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderSignalSpeed" layoutX="584.0" layoutY="439.0" prefHeight="23.0" prefWidth="203.0" stylesheets="@style.css" />
+      <MenuButton fx:id="menuConfig" alignment="CENTER" layoutX="17.0" layoutY="14.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#onClickMenuConfig" popupSide="RIGHT" prefHeight="37.0" prefWidth="37.0" stylesheets="@style.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <items>
+            <MenuItem fx:id="menuTEnqd" mnemonicParsing="false">
+               <graphic>
+                  <HBox alignment="CENTER" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0">
+                     <children>
+                        <ChoiceBox fx:id="cbxTipoEnquadramento" maxWidth="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="21.0" prefWidth="36.0" styleClass="choicebox" stylesheets="@style.css">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ChoiceBox>
+                        <Label fx:id="lblShowEnquadText" prefWidth="120.0" text=" Enquadramento" />
+                     </children>
+                  </HBox>
+               </graphic>
+            </MenuItem>
+            <MenuItem fx:id="menuTCode" mnemonicParsing="false">
+               <graphic>
+                  <HBox alignment="CENTER" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0">
+                     <children>
+                        <ChoiceBox fx:id="cbxTipoCodificacao" maxWidth="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="21.0" prefWidth="36.0" styleClass="choicebox" stylesheets="@style.css">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ChoiceBox>
+                        <Label fx:id="lblShowCodeText" prefWidth="120.0" text=" Codificação" />
+                     </children>
+                  </HBox>
+               </graphic>
+            </MenuItem>
+            <MenuItem fx:id="menuTCont" mnemonicParsing="false">
+               <graphic>
+                  <HBox alignment="CENTER" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0">
+                     <children>
+                        <ChoiceBox fx:id="cbxTipoControleErro" maxWidth="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="21.0" prefWidth="36.0" styleClass="choicebox" stylesheets="@style.css">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ChoiceBox>
+                        <Label fx:id="lblShowErrorCtrlText" prefWidth="120.0" text=" Controle de Erros" />
+                     </children>
+                  </HBox>
+               </graphic>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false">
+               <graphic>
+                  <HBox alignment="CENTER" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0">
+                     <children>
+                        <ChoiceBox fx:id="cbxTipoMAC" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="21.0" prefWidth="36.0" styleClass="choicebox" stylesheets="@style.css" />
+                        <Label fx:id="lblShowAccessCtrlText" prefWidth="120.0" text=" Controle Acesso" />
+                     </children>
+                  </HBox>
+               </graphic>
+            </MenuItem>
+         </items>
+      </MenuButton>
+      <Label fx:id="lblError" layoutX="584.0" layoutY="184.0" prefHeight="18.0" prefWidth="203.0" stylesheets="@style.css" text="Gerador de erro (%):" />
+      <Label fx:id="lblSpeed" layoutX="584.0" layoutY="425.0" opacity="0.0" prefHeight="18.0" prefWidth="203.0" stylesheets="@style.css" text="Velocidade da passagem sinal:" />
+      <Slider fx:id="sliderErrorGenerator" layoutX="584.0" layoutY="200.0" prefHeight="23.0" prefWidth="203.0" stylesheets="@style.css" />
+      <TextArea fx:id="txtATransmissor3" layoutX="339.0" layoutY="359.0" prefHeight="76.0" prefWidth="114.0" stylesheets="@style.css">
+         <font>
+            <Font size="10.0" />
+         </font></TextArea>
+      <TextArea fx:id="txtATransmissor4" layoutX="599.0" layoutY="333.0" prefHeight="76.0" prefWidth="114.0" stylesheets="@style.css">
+         <font>
+            <Font size="10.0" />
+         </font></TextArea>
+      <TextArea fx:id="txtATransmissor5" layoutX="596.0" layoutY="77.0" prefHeight="76.0" prefWidth="114.0" stylesheets="@style.css">
+         <font>
+            <Font size="10.0" />
+         </font></TextArea>
+      <TextArea fx:id="txtATransmissor1" layoutX="78.0" layoutY="71.0" prefHeight="76.0" prefWidth="114.0" stylesheets="@style.css">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="txtTv" editable="false" layoutX="312.0" layoutY="182.0" prefHeight="99.0" prefWidth="161.0" stylesheets="@style.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="transmitindo1" fitHeight="37.0" fitWidth="114.0" layoutX="69.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transmitindo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transmitindo5" fitHeight="37.0" fitWidth="114.0" layoutX="596.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transmitindo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transmitindo4" fitHeight="37.0" fitWidth="114.0" layoutX="576.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transmitindo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transmitindo3" fitHeight="37.0" fitWidth="114.0" layoutX="344.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transmitindo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="transmitindo2" fitHeight="76.0" fitWidth="114.0" layoutX="70.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/transmitindo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="colisao2" fitHeight="50.0" fitWidth="50.0" layoutX="85.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/colisao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="colisao3" fitHeight="50.0" fitWidth="50.0" layoutX="248.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/colisao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="colisao4" fitHeight="50.0" fitWidth="50.0" layoutX="525.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/colisao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="colisao5" fitHeight="50.0" fitWidth="50.0" layoutX="543.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/colisao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="colisao1" fitHeight="50.0" fitWidth="50.0" layoutX="190.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/colisao.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

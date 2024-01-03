@@ -1,0 +1,59 @@
+/* ***************************************************************
+* Autor............: Luan Pinheiro Azevedo
+* Matricula........: 202110904
+* Inicio...........: 24/08/2023
+* Ultima alteracao.: -/08/2023
+* Nome.............: style.css
+* Funcao...........: Estilização das marcacoes
+*************************************************************** */
+
+
+#sliderSignalSpeed{
+  -fx-color:   #130f63;
+  -fx-background-color:   #1E2EBD;
+  -fx-text-fill: white;
+  -fx-font-size:11px;
+  -fx-border-width:2px;
+  -fx-border-color: white;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+  -fx-font-weight: bold;
+}
+
+#cbxTipoCodificacao{
+  -fx-background-color:#b35d5dda;
+  -fx-border-color:rgba(0, 0, 0, 0.952);
+  -fx-border-radius:3px;
+  -fx-background-radius: 3px;
+  -fx-border-width:2px;
+  -fx-font-family: Fira Code SemiBold;
+  -fx-font-weight: bold;
+}
+#cbxTipoCodificacao:hover{
+  -fx-background-color:rgba(148, 26, 26, 0.829);
+  -fx-border-color:rgba(0, 0, 0, 0.952);
+} 
+#btnIniciar{
+  -fx-background-color:rgba(16, 224, 44, 0.952);
+  -fx-border-color:rgba(0, 45, 4, 0.952);
+  -fx-border-radius:15px;
+  -fx-background-radius: 20px;
+  -fx-border-width:3px;
+}
+#btnIniciar:hover{
+  -fx-background-color:rgba(13, 139, 30, 0.952);
+  -fx-border-color:rgba(1, 20, 3, 0.895);
+}
+#txtInsert{
+  -fx-border-color:rgba(0, 45, 4, 0.952);
+  -fx-border-radius:5px;
+  -fx-border-width:3px;
+  -fx-background-radius: 5px;
+}
+#btnEnviar{
+  -fx-background-color:rgba(0, 0, 0, 0);
+  -fx-background-radius: 90px 0px 0px 0px;
+}
+#btnEnviar:hover{
+  -fx-background-color:rgba(0, 0, 0, 0.478);
+}

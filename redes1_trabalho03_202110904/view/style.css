@@ -1,0 +1,105 @@
+/* ***************************************************************
+* Autor............: Luan Pinheiro Azevedo
+* Matricula........: 202110904
+* Inicio...........: 24/08/2023
+* Ultima alteracao.: -/08/2023
+* Nome.............: style.css
+* Funcao...........: Estilização das marcacoes
+*************************************************************** */
+
+#lblSpeed,#lblError{
+  -fx-text-fill: white;
+  -fx-font-size:11px;
+  -fx-border-width:2px 2px 0px 2px;
+  -fx-border-color: white;
+  -fx-border-radius: 2px;
+  -fx-background-radius: 5px;
+  -fx-font-weight: bold;
+}
+#sliderSignalSpeed{
+  -fx-color:   #130f63;
+  -fx-background-color:   #1E2EBD;
+  -fx-text-fill: white;
+  -fx-font-size:11px;
+  -fx-border-width:0px 2px 2px 2px;
+  -fx-border-color: white;
+  -fx-border-radius: 2px;
+  -fx-background-radius: 5px;
+  -fx-font-weight: bold;
+}
+#sliderErrorGenerator{
+  -fx-color:   #630f0f;
+  -fx-background-color:   #bd1e1e;
+  -fx-text-fill: white;
+  -fx-font-size:11px;
+  -fx-border-width:0px 2px 2px 2px;
+  -fx-border-color: white;
+  -fx-border-radius: 2px;
+  -fx-background-radius: 5px;
+  -fx-font-weight: bold;
+}
+#menuConfig{
+  -fx-border-radius: 80px;
+  -fx-background-radius: 80px;
+  -fx-background-color: transparent;
+  -fx-opacity:0;
+}
+#menuConfig:hover{
+  -fx-opacity:25;
+  -fx-background-color: rgba(33, 55, 55, 0.35)
+}
+#menuConfig .menu-item{
+  -fx-background-color: rgba(85, 6, 6, 0.2);
+  -fx-font-size: 13px;
+  -fx-font-weight: bold;
+}
+.choicebox{
+  -fx-background-color:#43c8c6c8;
+  -fx-border-color:rgb(0, 0, 0);
+  -fx-border-radius:4px;
+  -fx-background-radius: 4px;
+  -fx-border-width:1px;
+}
+.choicebox .menu-item {
+  -fx-text-fill: rgba(255, 255, 255, 0.9);
+  -fx-background-color: rgba(19, 105, 95, 0.65);
+  -fx-font-size: 11.5px;
+  -fx-font-weight: bold;
+}
+.choicebox:hover{
+  -fx-background-color:rgba(1, 82, 82, 0.6);
+  -fx-border-color:rgba(50, 50, 50, 0.8);
+} 
+#btnIniciar{
+  -fx-background-color:rgba(16, 224, 44, 0.95);
+  -fx-border-color:rgba(0, 45, 4, 0.95);
+  -fx-border-radius:15px;
+  -fx-background-radius: 20px;
+  -fx-border-width:3px;
+}
+#btnIniciar:hover{
+  -fx-background-color:rgba(13, 139, 30, 0.95);
+  -fx-border-color:rgba(1, 20, 3, 0.9);
+}
+#txtInsert{
+  -fx-border-color:rgba(0, 45, 4, 0.95);
+  -fx-border-radius:5px;
+  -fx-border-width:3px;
+  -fx-background-radius: 5px;
+}
+#btnEnviar{
+  -fx-background-color:rgba(0, 0, 0, 0);
+  -fx-background-radius: 90px 0px 0px 0px;
+}
+#btnEnviar:hover{
+  -fx-background-color:rgba(0, 0, 0, 0.5);
+}
+#btnOkF {
+  -fx-background-color: #df1919;
+  -fx-text-fill: rgb(169, 218, 220);
+  -fx-font-size: 12px; 
+  -fx-font-weight: bold;
+}
+#btnOkF:hover {
+  -fx-background-color: #df191998;
+}
