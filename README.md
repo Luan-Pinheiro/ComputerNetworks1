@@ -20,8 +20,8 @@ Imagens da Aplicação
 </br> Trabalho 5
 <table>
   <tr>
-    <td><img src="view/assets/Imagem5.png" alt="Imagem 5"></td>
     <td><img src="view/assets/Imagem6.png" alt="Imagem 6"></td>
+    <td><img src="view/assets/Imagem5.png" alt="Imagem 5"></td>
   </tr>
 </table>
 
