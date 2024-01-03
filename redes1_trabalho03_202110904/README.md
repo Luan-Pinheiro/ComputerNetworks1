@@ -16,8 +16,8 @@ Imagens da Aplicação
 </table>
 
 ## Demonstração
-Breve demonstração da aplicação em execução.
 <img src="view/assets/demonstracao.gif">
+Breve demonstração da aplicação em execução.
 
 
 
@@ -26,4 +26,4 @@ Breve demonstração da aplicação em execução.
 
 
 ## 🚀 Sobre mim
-Estudantes de Ciência da Computação na Universidade Estadual do Sudoeste da Bahia (UESB).
+Estudante de Ciência da Computação na Universidade Estadual do Sudoeste da Bahia (UESB).
